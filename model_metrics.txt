@@ -1,0 +1,20 @@
+Best Model: VGG-16
+
+Parameters
+==========
+Image Target Size: (240, 240)
+Learning rate: 0.001
+Number of fine-tuned layers on the base model: 2
+Number of nodes in first additional layer: 500
+Number of nodes in second additional layer: 1500
+Shear Range: 0.6
+Zoom Range: 0.7
+
+Metrics
+=======
+Accuracy: 50.38%
+Accuracy within top 3 predictions: 71.88%
+Precision: 0.571
+Recall: 0.455
+F1-Score: 0.506
+
